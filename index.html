@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Materializecss cdn -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
+  <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+  <style> 
+
+   body{background-image: url("https://wallpaperaccess.com/full/5818333.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+
+    body,
+    html,
+    .my-con {
+      height: 100vh;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- vertical and horizontal center-->
+  <div class=" valign-wrapper center my-con">
+    <div class="container">
+      <h1 style="font-family: 'Pokemon Solid', sans-serif;" id="title"></h1>
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" width="30%" alt="Image of pokemon">
+      <img id="image1" src="./shiny.png" width="10%" alt="Image of pokemon">
+      <div class="container" style="width: 30%;">
+        <input type="text" onchange="process()" id="userInput">
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
